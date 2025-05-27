@@ -1,0 +1,58 @@
+/* Custom Global Styles */
+body {
+	font-family: 'Inter', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Animations (can also be configured in Tailwind if preferred) */
+@keyframes float {
+	0% {
+		transform: translateY(0px);
+	}
+
+	50% {
+		transform: translateY(-10px);
+	}
+
+	100% {
+		transform: translateY(0px);
+	}
+}
+
+.animate-float {
+	animation: float 6s ease-in-out infinite;
+}
+
+@keyframes blink {
+	0%, 100% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+	}
+}
+
+.animate-blink {
+	animation: blink 1s step-end infinite;
+}
+
+/* Hide sections by default, JS will show the active one */
+.page-section {
+	display: none;
+}
+
+	.page-section.active {
+		display: block;
+	}
+
+/* Tailwind prose overrides for links if needed */
+.prose a, .prose-invert a {
+	text-decoration: none; /* Example override */
+}
+
+	.prose a:hover, .prose-invert a:hover {
+		text-decoration: underline;
+	}
+/* Tailwind dark mode for prose is .prose-invert */
