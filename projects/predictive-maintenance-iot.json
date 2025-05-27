@@ -1,0 +1,20 @@
+{
+	"id": "predictive-maintenance-iot",
+	"title": "Predictive Maintenance for IoT Devices",
+	"thumbnail": "images/iot-maintenance-thumbnail.jpg",
+	"overview": "Built an end-to-end system to predict failures in industrial IoT devices, reducing unplanned downtime by 25% and maintenance costs by 18%.",
+	"goals": [
+		"Minimize unplanned equipment downtime",
+		"Optimize maintenance schedules using predictive analytics",
+		"Extend equipment lifespan through proactive interventions"
+	],
+	"technologies": [ "Python", "TensorFlow (Keras)", "LSTM Networks", "MQTT", "Kafka", "InfluxDB", "Grafana", "Kubernetes", "Databricks" ],
+	"challenges": "Processing high-velocity, noisy streaming data from sensors and identifying subtle anomaly patterns indicative of impending failure.",
+	"solutions": "Developed a scalable real-time data ingestion and processing pipeline using Kafka and Spark Streaming. Used LSTM neural networks for time-series anomaly detection. Created an intuitive Grafana dashboard for monitoring device health and alerts.",
+	"screenshots": [
+		"images/iot-architecture.jpg",
+		"images/iot-anomaly-detection.jpg" 
+	],
+	"githubLink": "https://github.com/alexjohnson/iot-predictive-maintenance",
+	"liveDemoLink": "https://example.com/iot-demo"
+}

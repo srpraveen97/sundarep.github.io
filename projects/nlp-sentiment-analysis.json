@@ -1,0 +1,20 @@
+{
+	"id": "nlp-sentiment-analysis",
+	"title": "NLP for Customer Feedback Sentiment Analysis",
+	"thumbnail": "images/nlp-sentiment-thumbnail.jpg",
+	"overview": "Designed and implemented an NLP pipeline to analyze sentiment and extract key topics from customer reviews, providing actionable insights for product improvement.",
+	"goals": [
+		"Categorize customer feedback (positive, negative, neutral) with >90% accuracy",
+		"Identify emerging trends, product issues, and feature requests",
+		"Improve customer satisfaction scores by addressing feedback"
+	],
+	"technologies": [ "Python", "NLTK", "spaCy", "BERT", "Hugging Face Transformers", "Flask", "Docker", "Elasticsearch", "Spark NLP" ],
+	"challenges": "Handling sarcasm, domain-specific jargon, and multilingual text. Scaling the solution for large volumes of reviews.",
+	"solutions": "Fine-tuned a pre-trained BERT model on a custom dataset incorporating domain language. Implemented a rule-based system for handling specific edge cases. Deployed as a scalable microservice using Docker and integrated with Elasticsearch for searching and visualizing insights.",
+	"screenshots": [
+		"images/nlp-dashboard.jpg",
+		"images/nlp-topic-cloud.jpg"
+	],
+	"githubLink": "https://github.com/alexjohnson/nlp-sentiment-analyzer",
+	"liveDemoLink": null
+}

@@ -1,0 +1,20 @@
+{
+	"id": "sales-forecasting-tool",
+	"title": "Automated Sales Forecasting Tool",
+	"thumbnail": "images/sales-forecast-thumbnail.jpg",
+	"overview": "Created an automated sales forecasting tool using advanced time series analysis, improving forecast accuracy by 20% over traditional methods and supporting inventory optimization.",
+	"goals": [
+		"Provide accurate weekly and monthly sales forecasts across multiple product lines",
+		"Automate the end-to-end forecasting process",
+		"Enable data-driven inventory management and reduce stockouts/overstock"
+	],
+	"technologies": [ "Python", "Statsmodels (SARIMA)", "Prophet", "LightGBM", "Streamlit", "PostgreSQL", "Airflow", "Hadoop Ecosystem" ],
+	"challenges": "Dealing with complex seasonality, holiday effects, promotional impacts, and external market factors affecting sales. Ensuring model robustness and adaptability.",
+	"solutions": "Ensembled SARIMA, Prophet, and LightGBM models for improved accuracy and robustness. Incorporated external regressors for events and promotions. Built an interactive Streamlit dashboard for business users to explore forecasts and scenarios. Automated retraining and deployment using Airflow.",
+	"screenshots": [
+		"images/sales-dashboard.jpg",
+		"images/sales-model-comparison.jpg"
+	],
+	"githubLink": "https://github.com/alexjohnson/sales-forecasting",
+	"liveDemoLink": "https://example.com/sales-forecast-tool"
+}
