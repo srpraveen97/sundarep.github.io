@@ -1,0 +1,20 @@
+{
+	"id": "customer-churn-prediction",
+	"title": "Customer Churn Prediction Model",
+	"thumbnail": "images/churn-project-thumbnail.jpg",
+	"overview": "Developed a machine learning model to predict customer churn with 92% accuracy, enabling proactive retention strategies and reducing churn by 18%.",
+	"goals": [
+		"Reduce customer churn by 15% annually",
+		"Identify key factors driving churn with explainable AI",
+		"Provide actionable, real-time insights to the marketing team"
+	],
+	"technologies": [ "Python", "Scikit-learn", "XGBoost", "SHAP", "Pandas", "Matplotlib", "AWS S3", "Docker", "Azure ML" ],
+	"challenges": "Handling imbalanced dataset and feature engineering for diverse customer behaviors. Ensuring model explainability for stakeholder buy-in.",
+	"solutions": "Utilized SMOTE for oversampling the minority class and employed domain expertise for creating impactful features. Integrated SHAP for model interpretability. Implemented a robust cross-validation strategy.",
+	"screenshots": [
+		"images/churn-dashboard.jpg",
+		"images/churn-shap-values.jpg"
+	],
+	"githubLink": "https://github.com/alexjohnson/churn-prediction",
+	"liveDemoLink": null
+}
